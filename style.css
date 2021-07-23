@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    display: inline-block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body{
+    /* background: #E5E5E5; */
+    font-family: 'poppins';
+    font-weight: 400;
+}
+.header-top .image-top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 9px 0;
+    height: 83px;
+    background: #fff;
+}
+.navigation{
+    padding-top: 23px;
+    background: #F4F4F4;
+}
+.navigation .container .home ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 23px;
+}
+.navigation .container .home ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.navigation .container .home ul li a:hover{
+    color: #FD7400;
+    border-bottom: 4px solid #FD7400;
+    line-height: 17px;
+    padding-bottom: 23px;
+}
+.navigation .container .home ul li .hom{
+    color: #FD7400;
+}
+.about{
+    background: url(images/Rectangle\ 3.png) no-repeat center / cover;
+    color: #fff;
+}
+.about .container h1{
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 75px 0 20px;
+}
+.about .container .order{
+    width: 620px;
+    margin: 50px 0;
+}
+.about .container .order input{
+    width: 400px;
+    height: 44px;
+    border: none;
+    color: #CCCCCC;
+    ;
+}
+.about .container .order .btn{
+    width: 210px;
+    height: 44px;
+    background: #99CC33;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.about .container .order .link{
+    width: 100%;
+    font-size: 12px;
+}
+.about .container .check-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 620px;
+    padding-bottom: 80px;
+}
+.icons{
+    background: #fff;
+    padding: 50px 0 70px;
+}
+.icon{
+    width: 170px;
+    height: 207px;
+}
+.icon-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.icon h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.icon p{
+    font-size: 16px;
+    padding: 12px 0 70px;
+}
+.calculator .shipping{
+    display: flex;
+    justify-content: space-between;
+    background: #F5F5F7;
+    border-radius: 60px;
+}
+.calculator .shipping .image{
+    width: 370px;
+    height: 400px;
+    margin: 40px 0 5px 114px;
+}
+.calculator .shipping .cal-text h3{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    padding: 56px 0 50px;
+
+}
+.calculator .shipping .cal-text .pola{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.calculator .shipping .cal-text .pola .catalog{
+    margin: 8px 15px 20px 0;
+    border: 1px solid #E1E1E1;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 181px 14px 18px;
+    color: #FD7400;
+
+}
+.calculator .shipping .cal-text .Poland{
+    display: flex;
+}
+.calculator .shipping .cal-text .country{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E1E1;
+    
+}
+.calculator .shipping .cal-text .country div h5{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    width: 61px;
+    height: 18px;
+}
+.calculator .shipping .cal-text .country div input{
+    height: 44px;
+    width: 120px;
+    border-radius: 2px;
+    border: 1px solid #E1E1E1;
+    margin: 6px 15px 20px 0;
+    padding: 14px 79px 14px 14px;
+    color: #CCCCCC;
+}
+.calculator .shipping .cal-text .btn{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.calculator .shipping .cal-text .btn button{
+    padding: 12px 29px;
+    background: #99CC33;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #E1E1E1;
+    margin-right: 30px;
+}
+.calculator .shipping .cal-text .btn input{
+    border-radius: 1px;
+    padding: 13px 52px 13px 20px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    height: 51px;
+    width: 146px;
+}
+.calculator .shipping .cal-text .btn h5{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.allegro{
+    max-width: 1170px;
+    left: 215px;
+    top: 1511px;
+    border-radius: 20px; 
+    margin: 70px 0 100px 0;
+    background: #F5F5F7;
+    padding: 30px 0px 30px 45px;
+}
+.allegro .payme{
+    display: flex;
+}
+.allegro .payme img{
+    height: 30px;
+    width: 46.66514587402344px;
+    margin-right: 32px;
+}
+.allegro .payme h2{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+}
+.allegro .order{
+    margin: 10px 0 10px;
+    display: inline-block;
+}
+.allegro .order input{
+    height: 44px;
+    width: 800px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #FD7400;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #ccc;
+    padding: 14px;
+}
+.allegro .order .btn{
+    width: 210px;
+    border-radius: 3px;
+    background: #99cc33;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 11px 76px;
+    border: none;
+    margin-left: 15px;
+}
+.allegro p{
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.clients{
+    margin: 100px 0;
+}
+
+.clients-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.show-link{
+    font-size: 16px;
+    color: #FD7400;
+    text-decoration: underline;
+}
+
+.clients .container .reviews{
+    display: flex;
+    justify-content: space-between;
+}
+.clients .container .reviews .item{
+    position: relative;
+    margin-right: 30px;
+}
+
+.clients .container .reviews .item ::after{
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 88px;
+    width: 0; 
+    height: 0;
+    border-top: 39px solid #F5F5F7;
+    border-left: 30px solid transparent;
+}
+
+
+.clients .container .reviews .item .comment{
+    width: 370px;
+    height: 220px;
+    padding: 30px;
+    background: #F5F5F7;
+    border-radius: 20px;
+}
+
+.clients .container .reviews .item .comment img{
+    margin-bottom: 15px;
+}
+
+.clients .container .reviews .item .comment p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.clients .container .reviews .item .data{
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.clients .container .reviews .item .data p{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.bloc-card{
+    display: flex;
+    justify-content: space-between;
+}
+.bloc-img{
+    margin-right: 30px;
+}
+.bloc-img img{
+    height: 220px;
+    width: 370px; 
+}
+
+.bloc-card .bloc-icons{
+    display: flex;
+    margin: 19px 0 20px 0;
+}
+.bloc-card .bloc-icons .march{
+    display: flex;
+    align-items: center;
+}
+.bloc-card .bloc-img .bloc-icons .march i{
+    height: 12px;
+    width: 12px;
+    color: #FD7400;
+    margin-right: 12px;
+}
+.bloc-card .bloc-img .bloc-icons .march p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;       
+    margin-right: 40px;
+}
+.bloc-card .bloc-img p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400; 
+}
+.container .title{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    margin: 100px 0 60px;
+}
+.container .companies{
+    display: flex;
+    justify-content: space-between;
+}
+.wordwide{
+    background: #FD7400;
+    margin: 100px 0 60px;
+}
+.wordwide .flex{
+    display: flex;
+}
+.wordwide .flex .sites{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.wordwide .flex .sites div img{
+    width: 80px;
+    height: 80px;
+    margin: 20px 0 20px;
+}
+.wordwide .flex .sites .gen-title{
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.wordwide .flex .sites .gen-title .titl{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+}
+.wordwide .flex .sites .gen-title p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+}
+.container .company{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .company .services h3{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.container .company .services .flex{
+    display: flex;
+    align-items: center;
+}
+.container .company .services .flex div img{
+    width: 35px;
+    height: 40px;
+    margin-right: 11px;
+}
+.container .company .services .flex ul li{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+}
+.services .blog ul li{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+}
+.services .blog p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.services .blog input{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    padding: 13px 0 13px 16px;
+    color: #000;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #E1E1E1;
+    border-right: none;
+}
+.services .blog button{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    padding: 16px 11px;
+    background: #99CC33;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid #E1E1E1;
+    border-left: none;
+    margin-bottom: 15px;
+}

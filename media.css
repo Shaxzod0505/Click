@@ -1,0 +1,32 @@
+@media(max-width: 1400px) {
+    .container{
+        max-width: 1140px;
+    }
+    
+}
+
+/* *********************** */
+@media(max-width: 1200px) {
+    .container{
+        max-width: 991px;
+    }
+}
+
+/* *********************** */
+@media(max-width: 1020px) {
+    .container{
+        max-width: 767px;
+    }
+}
+
+/* *********************** */
+@media(max-width: 800px) {
+    .container{
+        max-width: 576px;
+    }
+    
+}
+/* ****************************************** */
+@media(max-width: 576px){
+    
+}
